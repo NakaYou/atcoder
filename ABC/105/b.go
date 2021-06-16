@@ -1,3 +1,5 @@
+// +build ignore
+
 package main
 
 import "fmt"
@@ -15,7 +17,7 @@ func main() {
 	}
 	if Yes {
 		fmt.Println("Yes")
-	}else{
+	} else {
 		fmt.Println("No")
 	}
 }
